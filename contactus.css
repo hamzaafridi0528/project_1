@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --maincolor: ;
+}
+
+
+body{
+     font-family:"Poppins" , sans-serif;
+}
+
+section{
+    padding-block: 7rem;
+}
+
+
+.navbardiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-inline: 8rem;
+    padding-top: 2rem;  
+}
+
+.navbardiv h2{
+    font-size: 2rem;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    list-style: none;
+    font-size: 1.6rem;
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbardiv button{
+    padding: 1rem 2.5rem;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.bg{
+    background-image: url(./images/5.png);
+    height: 85vh;
+    color: white;
+    text-align: center;
+    padding-top: 15rem;
+    font-size: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.H{
+    padding-inline: 8rem;
+    
+}
+
+.H h3{
+    font-size: 4rem;
+}
+
+.H p{
+    font-size: 2rem;   
+}
+
+.input{
+    padding-inline: 6rem;
+    /* gap: 40rem; */
+    flex-wrap: wrap;
+    
+}
+
+.input input{
+    width: 60rem;
+    height: 8rem;
+    margin: 1rem 2rem;
+    border-radius: 7px;
+    padding-left: 2rem;
+    font-weight: 1;
+}
+
+ textarea{
+    width: 124rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    border-radius: 7px;
+    padding-left: 2rem;
+    padding-top: 1.5rem;
+}
+
+.send button{
+    padding: 1.5rem 4rem;
+    margin-top: 2rem;
+    margin-inline: 66rem;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+}
+
+.aboutcontact{
+    display: flex;
+    padding-inline: 8rem;
+    flex-wrap: wrap;
+}
+
+.ac{
+    padding-top: 6rem;
+    padding-left: 15rem;
+}
+
+.ac h2{
+    font-size: 3rem;
+}
+
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 15rem;
+    justify-content: space-between;
+}
+
+
+
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    padding-block: 5rem;
+    flex-wrap: wrap;
+}
+
+
+@media screen and (max-width:900px) {
+    .nav{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .nav{
+        align-items: center;
+    }
+
+    /* .show img{
+    width: 250px;
+    } */
+
+}

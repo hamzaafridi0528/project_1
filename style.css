@@ -1,0 +1,289 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+:root{
+    --maincolor: ;
+}
+
+
+body{
+     font-family:"Poppins" , sans-serif;
+}
+
+section{
+    padding-block: 7rem;
+}
+
+.navbardiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-inline: 8rem;
+    padding-top: 2rem;  
+}
+
+.navbardiv h2{
+    font-size: 2rem;
+}
+
+.nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4rem;
+    list-style: none;
+    font-size: 1.6rem;
+    
+}
+
+.nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.navbardiv button{
+    padding: 1rem 2.5rem;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+}
+
+.bg{
+    background-image: url(./images/1.jpeg);
+    height: 85vh;
+    color: white;
+    text-align: center;
+    padding-top: 15rem;
+    font-size: 5rem;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.show{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    padding-inline: 8rem;
+}
+
+.sectiona{
+    padding-top: 4rem;
+    width: 50%;
+}
+
+.sectiona h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sectiona h2{
+    font-size: 35px;
+}
+
+.sectiona p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.sectiona button{
+    padding: 1.5rem 2.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+.show img{
+    width: 500px;
+}
+
+.h{
+    padding-inline: 8rem;
+    font-size: 4rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-inline: 8rem;
+}
+
+.card img{
+    width: 400px;
+    height: 500px;
+}
+
+.card h3{
+    font-size: 1.6rem;
+}
+
+.H{
+    padding-inline: 8rem;
+    font-size: 4rem;
+}
+
+.Cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-inline: 8rem;
+}
+
+.Card img{
+    height: 400px;
+    width: 400px;
+    padding-top: 3rem;
+}
+
+.Card h2{
+    font-size: 2rem;
+    padding-left: 17rem;
+}
+
+.Shop{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: rgb(180, 178, 173, 0.4);
+    padding-top: 3rem;
+    flex-wrap: wrap;
+}
+
+.img{
+    padding-right: 3rem;
+}
+
+.shop{
+    display: flex;
+    padding-inline: 8rem;
+}
+
+.aboutshop{
+    padding-top: 10rem;
+}
+
+.aboutshop h4{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.aboutshop h3{
+    font-size: 2.5rem;
+}
+
+.aboutshop button{
+    padding: 1rem 1.5rem;
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+}
+
+.about{
+    padding-inline: 8rem;
+}
+
+.about h1{
+    font-size: 3rem;
+}
+
+.about p{
+    font-size: 1.3rem;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 8rem;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    gap: 10rem;
+    margin-top: 2rem;
+
+}
+
+.boxa{
+    padding: 1.9rem 1.3rem;
+    background-color:rgb(180, 178, 173, 0.4) ;
+    border-radius: 12px;
+    /* width: fixed(39rem); */
+    /* height: fixed(17rem); */
+}
+
+.boxa h5{
+    padding-left: 1rem;
+    font-size: 1.5rem;
+}
+
+.boxa p{
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+.boxa span{
+    /* padding-right: 0.5px; */
+    justify-content: space-between;
+    color: rgba(246, 212, 151, 1);
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10rem;
+    font-size: 1.5rem;
+    background-color: black;
+    color: white;
+    padding-block: 5rem;
+    flex-wrap: wrap;
+}
+
+
+
+
+@media screen and (max-width:900px) {
+    .nav{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width:500px) {
+    .nav{
+        align-items: center;
+    }
+
+    .show img{
+    width: 250px;
+}
+
+.bg h1{
+    font-size: 5rem;
+}
+
+.i p{
+    padding-bottom: 4rem;
+}
+
+
+    
+}
+
+
+
+
+
